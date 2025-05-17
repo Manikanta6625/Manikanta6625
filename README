@@ -1,0 +1,123 @@
+
+# 🔥 Forest Fire Prediction
+
+A machine learning-based project to predict the likelihood of forest fires using environmental features such as temperature, humidity, wind speed, and rainfall. Built with Python and trained using supervised learning models.
+
+---
+
+## 📋 Table of Contents
+
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## 📖 About the Project
+
+This project focuses on early prediction of forest fires by analyzing environmental data using machine learning algorithms. The aim is to assist in rapid response and prevention efforts by identifying fire risks before they become uncontrollable.
+
+---
+
+## ✨ Features
+
+- ✅ Data preprocessing and cleaning
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Training with multiple ML models (e.g., Logistic Regression, Random Forest)
+- ✅ Evaluation with metrics (Accuracy, Precision, Recall, F1 Score)
+- ✅ Visualizations and charts for insights
+- ✅ Modular and clean project structure
+
+---
+
+## 🧰 Tech Stack
+
+- **Programming Language:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **Development Tools:** VS Code, Jupyter Notebook
+- **Version Control:** Git & GitHub
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/forest-fire-prediction.git
+   cd forest-fire-prediction
+   ```
+
+2. **Create and activate a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🚀 Usage
+
+You can either run the main Python script or the Jupyter Notebook:
+
+### Run with script:
+```bash
+python main.py
+```
+
+### Or open the notebook:
+```bash
+jupyter notebook forest_fire_prediction.ipynb
+```
+
+---
+
+## 📊 Results
+
+Model performance results (example):
+
+| Model               | Accuracy | Precision | Recall | F1 Score |
+|--------------------|----------|-----------|--------|----------|
+| Logistic Regression| 85.4%    | 84.1%     | 86.0%  | 85.0%    |
+| Random Forest       | 91.2%    | 90.8%     | 91.5%  | 91.1%    |
+
+You can find confusion matrices and ROC curves in the `results/` directory.
+
+---
+
+## 📁 Project Structure
+
+```bash
+forest-fire-prediction/
+│
+├── data/                   # Raw and cleaned datasets
+├── notebooks/              # Jupyter notebooks for analysis
+├── models/                 # Saved trained models
+├── results/                # Evaluation metrics and plots
+├── main.py                 # Main script to train and evaluate models
+├── requirements.txt        # Python dependencies
+└── README.md               # Project overview (you are here)
+```
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 🙏 Acknowledgements
+
+- UCI Machine Learning Repository
+- Scikit-learn and Python community
+- Matplotlib & Seaborn for data visualization
+
